@@ -7,14 +7,14 @@ If your system is running ZSH:
 ```zsh
 git clone https://github.com/flyme2bluemoon/runtimer.git
 cd runtimer
-echo 'alias runtimer="python3 $PWD/runtimer/runtimer.py"' >> ~/.zsh
+printf "alias runtimer=\"python3 %s/runtimer.py\"\n" $PWD >> ~/.zsh
 ```
 
 If your system is running BASH:
 ```bash
 git clone https://github.com/flyme2bluemoon/runtimer.git
 cd runtimer
-echo 'alias runtimer="python3 $PWD/runtimer/runtimer.py"' >> ~/.bashrc
+printf "alias runtimer=\"python3 %s/runtimer.py\"\n" $PWD >> ~/.bashrc
 ```
 
 ## Usage
