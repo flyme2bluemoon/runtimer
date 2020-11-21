@@ -14,7 +14,7 @@ If your system is running BASH:
 ```bash
 git clone https://github.com/flyme2bluemoon/runtimer.git
 cd runtimer
-echo 'alias runtimer="python3 $PWD/runtimer/runtimer.py"' >> ~/.zsh
+echo 'alias runtimer="python3 $PWD/runtimer/runtimer.py"' >> ~/.bashrc
 ```
 
 ## Usage
