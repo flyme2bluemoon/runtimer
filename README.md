@@ -7,7 +7,7 @@ If your system is running ZSH:
 ```zsh
 git clone https://github.com/flyme2bluemoon/runtimer.git
 cd runtimer
-echo "alias runtimer=\"python3 $PWD/runtimer.py\"" >> ~/.zsh
+echo "alias runtimer=\"python3 $PWD/runtimer.py\"" >> ~/.zshrc
 ```
 
 If your system is running BASH:
